@@ -1,0 +1,299 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    font-weight: bold;
+margin: 0;
+background-color: #F7F5F2;
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+h1{
+font-size: 30px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-around ; 
+}
+
+.T1, .T2, .T3, .T4, .T5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+    padding: 10px;
+}
+
+.T1:hover, .T2:hover, .T3:hover, .T4:hover, .T5:hover{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #F7F5F2;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+a:hover{
+background-color: #F7F5F2;
+color: black;
+}
+
+.image1{
+    height: 600px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.img1{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.aPropos{
+    display: flex;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    width: 100%;
+}
+
+h2{
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+.about p {
+    max-width: 60%;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+    margin-top: 20px;
+    padding-left: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.temoin{
+    background-color: rgba(211, 211, 211, 0.49);
+    border-left: 5px solid grey;
+    max-width: 60%;
+}
+
+.temoin p{
+    margin: none;
+}
+
+
+
+.image2{
+    min-width: 60%;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.img2{
+    width: 100%;
+    height: 100%;
+}
+
+.hours{
+   display: flex;
+   min-width: 60%;
+   flex-direction: column;
+}
+
+h3{
+    margin: 5px;
+}
+
+.mainMenu{
+   display: flex;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    width: 100%;
+}
+
+.choix{
+    display: flex;
+    min-width: 60%;
+    justify-content: space-around ; 
+    border: 1px solid lightgray;
+    box-shadow :  -2px 1px 9px 6px rgba(124, 124, 124, 0.300) ;
+    margin-top: 30px;
+}
+
+.choix h4{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin: 10;
+    align-items: center;
+    width: 100%;
+}
+
+.choix h4:hover{
+    background-color: black;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F7F5F2;
+}
+
+.menu1{
+    min-width: 60%;
+    margin-top: 10px;
+    border: 1px solid lightgray;
+    box-shadow :  -2px 1px 9px 6px rgba(124, 124, 124, 0.300) ;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu1 h4{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+.menu1 p{
+    margin-bottom: 60px;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    color: grey;
+}
+
+
+
+.menu2{
+    display: none;
+    flex-direction: column;
+    min-width: 60%;
+    margin-top: 10px;
+    border: 1px solid lightgray;
+    box-shadow :  -2px 1px 9px 6px rgba(124, 124, 124, 0.300) ;
+}
+
+.menu2 h4{
+    margin-left: 20px;
+}
+.menu2 p{
+    margin-bottom: 60px;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    color: grey;
+}
+
+.image3{
+    padding-top: 60px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.img3{
+    min-width: 60%;
+}
+
+
+.where{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.where p {
+    padding-top: 50px;
+    letter-spacing: 1px;
+    line-height: 1em;
+}
+
+.img4{
+    max-width: 60%;
+    padding: 10px;
+}
+
+.aa{
+    padding: 20px;
+    max-width: 60%;
+    
+}
+
+.reservation{
+    display: flex;
+    padding: 60px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reservation p {
+    max-width: 60%;
+    padding-bottom: 20px;
+}
+
+input{
+    margin-bottom: 10px;
+    padding: 20px;
+    min-width: 60%;
+    border: 1px solid lightgray;
+}
+
+button{
+    font-size: 15px;
+    padding: 15px;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+.granola{
+    max-width: 60%;
+    max-height: 50%;
+    justify-content: center;
+    display: none;
+    position: absolute;
+}
+
+
+.waffle{
+    max-width: 60%;
+    max-height: 50%;
+    position: absolute;
+    display: none;
+}
