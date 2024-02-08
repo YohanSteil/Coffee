@@ -40,4 +40,22 @@ item3.addEventListener('mouseout', function(){
     waffle.style.display="none" ; 
 });
 
+var map = L.map('map').setView([43.580, 7.127], 13);
+var marker = L.marker([43.580, 7.127]).addTo(map);
+
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    scrollWheelZoom: false,
+}).addTo(map);
+
+marker.bindPopup("<b>On est ici !</b>").openPopup();
+
+// var circle = L.circle([43.580, 7.127], {
+//     color: 'red',
+//     fillColor: '#f03',
+//     fillOpacity: 0.5,
+//     radius: 500
+// }).addTo(map);
+
 
