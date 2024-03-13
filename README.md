@@ -1,6 +1,6 @@
-# Coffee
+# Projet coffee shop
 
-J'ai réalisé ce site pour m'entraîner. Les langages utilisés :
+J'ai réalisé le site d'un coffee shop pour m'entraîner. Les langages utilisés sont:
 
 - HTML/CSS
 - JavaScript
